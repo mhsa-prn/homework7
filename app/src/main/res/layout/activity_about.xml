@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahsa"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piran Saeen"
+        android:layout_below="@+id/firstName"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/uniId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9810031021"
+        android:layout_below="@+id/lastName"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="231dp" />
+</RelativeLayout>
